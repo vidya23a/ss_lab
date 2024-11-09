@@ -22,12 +22,12 @@ void passOne(){
         fscanf(fp1,"%s\t%s\t%s",label,opcode,operand);
     }
     else
-        locctr=0;
+        start=0;
     
     while(strcmp(opcode,"END")!=0){
         fprintf(fp4,"%d\t%s\t%s\t%s\n",locctr,label,opcode,operand);
         
-        if(strcmp(label,"**")==0){
+        if(strcmp(label,"**")!=0){
             fprintf(fp3,"%s\t%d\n",opcode,locctr);
         }
         
