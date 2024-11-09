@@ -33,7 +33,7 @@ void sym_read(){
 
 int get_addr(char *label){
     for(int j=0;j<sym_length;j++){
-        if(strcmp(ST[j].symbol,operand)==0){
+        if(strcmp(ST[j].symbol,label)==0){
             return ST[j].addr;
         }
     }
