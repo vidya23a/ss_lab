@@ -76,3 +76,24 @@ int main(){
     }
     fclose(fp1);
 }
+
+
+/*
+ADDRESS		CONTENTS
+
+1000	14103348 20390010 36281030 30101548 
+1010	20613C10 0300102A 0C103900 102Dxxxx 
+1020	xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+1030	xxxxxxxx xxxxxxxx xxxxxx0C 10364820 
+1023	61081033 4C000045 4F460000 03000000 
+1033	xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+1060	xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+1070	xxxxxxxx xxxxxxxx 04103000 1030E020 
+104f	5D30203F D8205D28 10303020 57549039 
+105f	2C205E38 203Fxxxx xxxxxxxx xxxxxxxx 
+10a0	xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+10b0	xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+10c0	xxxxxxxx xx101036 4C000000 00000010 
+1082	00041030 E0207930 20645090 39DC2079 
+1092	2C1036
+*/
